@@ -12,6 +12,7 @@ require("connect_db.php");
 if(!isset($_SESSION['email']))
     header("location: login.php");
 
+    // sprawdzam
 
 echo "<p>Hello: ".$_SESSION['email']."!</p>";
 
