@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
-require("connect_db.php");
+require 'connect/connect_db.php';
 
 if(isset($_POST['sub'])){
     $email = $_POST['email'];

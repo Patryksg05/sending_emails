@@ -3,7 +3,7 @@
 </style>
 <?php
 
-require("connect_db.php");
+require 'connect/connect_db.php';
 
 if(!isset($_SESSION['email']))
     header("location: login.php");
