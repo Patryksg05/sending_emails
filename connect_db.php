@@ -7,4 +7,6 @@
 
     session_start();
 
+    echo "brak";
+
 ?>  
