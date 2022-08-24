@@ -1,10 +1,6 @@
 <style type="text/css">
-    body{
-    background-color: #000;
-    color: #eee;
-}
+    <?php include 'css/main.css'?>
 </style>
-
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
